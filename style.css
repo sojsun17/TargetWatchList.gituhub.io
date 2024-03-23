@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+    align-items: center;
+}
+@keyframes anime {
+    0% {
+      opacity: 0;
+      transform: translateY(55px);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+audio{
+    justify-content: center;
+    align-items: center;
+    display: none;
+   
+}
+  
+#title{
+    animation: anime 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em; 
+    color: aliceblue;
+    background-color: darkred; 
+    clip-path: rect(0px, 0px, 0px, 0px);
+
+}
+
+
+h2{
+    font-size: 4em;
+    color: rgb(201, 13, 13);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+h3{
+    font-size: 4em;
+    color: darkred;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+h4{
+    font-size: 3em;
+    color: darkred;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body p {
+    font:  'Roboto', sans-serif;
+    font-size: 1.8em;
+}
